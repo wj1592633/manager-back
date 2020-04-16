@@ -1,0 +1,34 @@
+系统统一返回ResponseResult
+ {state:200,failMsg:null,data:null}  //state:200成功，500失败;failMsg:失败时会有数据;data:要返回的数据
+--------------------------*****---------------------------------
+  keytool -genkeypair -alias mbkey -keyalg RSA -keypass mbpass -keystore mb.keystore -storepass mbstorepass
+
+授权码模式：要配置request的header和body
+localhost:8080/manager-boot/oauth/authorize?response_type=code&client_id=test&redirect_uri=http://www.baidu.com&scope=all
+--------------------------*****---------------------------------
+获取token：要配置request的header和body，body的grant_type决定密码模式还是授权码模式，
+localhost:8080/manager-boot/oauth/token
+--------------------------*****---------------------------------
+token校验：不用设置header，直接在参数带上?token=xxxx
+localhost:8080/manager-boot/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub3RlIjoiMWY3YmYiLCJhdWQiOlsicmVzdHNlcnZpY2UiXSwidXNlcl9uYW1lIjoiYm9zcyIsInNjb3BlIjpbImFs.........
+--------------------------*****---------------------------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzdHNlcnZpY2UiXSwidXNlcl9uYW1lIjoiYm9zcyIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE1NTI5Njk4MTQsImF1dGhvcml0aWVzIjpbIm1lbnUiLCJST0xFX1VTRVIiLCJBRE1JTiJdLCJqdGkiOiJjYTc2MjlmMC1mMTA4LTQ3MGUtOGVmMC00ZGU5MjIyNWJiM2UiLCJjbGllbnRfaWQiOiJ0ZXN0In0.48pDZu7u2kS15cI1kUTV6nMqRGtaB-B_UPLwok-HQ6M
+
+
+$10$75MUny78R1qwgFI63vMCEegaQuWpvGyY.75JgtrPi2iCuv3M9CRn.
+SecurityContextPersistenceFilter
+
+具体见DefaultTokenServices类的loadAuthentication()方法
+token过期抛出的异常：throw new InvalidTokenException("Access token expired: " + accessTokenValue);
+token为null：throw new InvalidTokenException("Invalid access token: " + accessTokenValue);
+
+OAuth2AccessToken accessToken = this.tokenStore.readAccessToken(accessTokenValue)
+
+OAuth2AuthenticationProcessingFilter拦截，解析请求头的header的Authorization的value，组装成Authentication，中途会进行一系列的校验，校验通过会标记为认证成功状态，
+放在SecurityContextHolder里面。
+FilterSecurityInterceptor权限校验
+解析请求头的header的Authorization的value，即为token字符串。DefaultTokenServices调用其他类，用jwtHelper解析token字符串最终得到DefaultOAuth2AccessToken(其中他的
+additionalInformation属性中包含了我们自己CustomUserAuthenticationConverter中附加的信息),之后DefaultTokenServices对DefaultOAuth2AccessToken进行==null、isExpired()
+的校验。DefaultTokenServices调用tokenStore对DefaultOAuth2AccessToken的数据组装成OAuth2Authentication传给OAuth2AuthenticationManager，
+
+AccessDecisionManager决定有无访问权限。(AffirmativeBased的decide()方法中，投票器一个都没投的话，就是无权限，抛异常)

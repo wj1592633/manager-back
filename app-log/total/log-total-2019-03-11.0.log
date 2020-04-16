@@ -1,0 +1,627 @@
+2019-03-11 22:55:10.650  INFO 8152 --- [main] com.wj.manager.ManagerBootApplication    : Starting ManagerBootApplication on DESKTOP-G1UFLM8 with PID 8152 (E:\MyDownloads\manager-boot\target\classes started by admin in E:\MyDownloads\manager-boot)
+2019-03-11 22:55:10.678  INFO 8152 --- [main] com.wj.manager.ManagerBootApplication    : No active profile set, falling back to default profiles: default
+2019-03-11 22:55:15.433  INFO 8152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.wj.manager.config.ShiroConfig$$EnhancerBySpringCGLIB$$ce17b159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:55:15.512  INFO 8152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroUserRealm' of type [com.wj.manager.common.shiro.ShiroUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:55:16.004  INFO 8152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:55:16.057  INFO 8152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:55:16.202  INFO 8152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cedc53e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:55:16.799  INFO 8152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$dc6e1270] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:55:18.761  INFO 8152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-11 22:55:18.835  INFO 8152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-11 22:55:18.835  INFO 8152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-11 22:55:18.847  INFO 8152 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-03-11 22:55:18.847  INFO 8152 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2019-03-11 22:55:18.847  INFO 8152 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-11 22:55:18.848  INFO 8152 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-11 22:55:19.965  INFO 8152 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2019-03-11 22:55:20.587  INFO 8152 --- [main] o.a.c.c.C.[.[localhost].[/manager-boot]  : Initializing Spring embedded WebApplicationContext
+2019-03-11 22:55:20.590  INFO 8152 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9721 ms
+2019-03-11 22:55:22.795  INFO 8152 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-11 22:55:36.300  INFO 8152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-11 22:55:36.765  INFO 8152 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-03-11 22:55:37.742  INFO 8152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-11 22:55:37.817  INFO 8152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-03-11 22:55:37.848  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-11 22:55:37.889  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 部门数据
+2019-03-11 22:55:37.897  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getListTree belongs to groups: [[ResourceGroup{groupName='部门数据', position=0, controller=com.wj.manager.controller.SysDeptController}]] 
+2019-03-11 22:55:37.899  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMenuList was 系统菜单数据
+2019-03-11 22:55:37.900  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getMenuList belongs to groups: [[ResourceGroup{groupName='系统菜单数据', position=0, controller=com.wj.manager.controller.SysMenuController}]] 
+2019-03-11 22:55:37.902  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTreeData was 系统菜单数据
+2019-03-11 22:55:37.903  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getTreeData belongs to groups: [[ResourceGroup{groupName='系统菜单数据', position=0, controller=com.wj.manager.controller.SysMenuController}]] 
+2019-03-11 22:55:37.905  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataRelations was 权限分配
+2019-03-11 22:55:37.905  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updataRelations belongs to groups: [[ResourceGroup{groupName='权限分配', position=0, controller=com.wj.manager.controller.SysRelationController}]] 
+2019-03-11 22:55:37.905  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addRole was 角色数据
+2019-03-11 22:55:37.905  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addRole belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:55:37.906  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteRole was 角色数据
+2019-03-11 22:55:37.907  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteRole belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:55:37.907  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method editRole was 角色数据
+2019-03-11 22:55:37.907  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: editRole belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:55:37.908  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getRoleList was 角色数据
+2019-03-11 22:55:37.908  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getRoleList belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:55:37.908  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 角色数据
+2019-03-11 22:55:37.909  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getListTree belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:55:37.909  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method uploadAvatar was 系统用户数据
+2019-03-11 22:55:37.909  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: uploadAvatar belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.910  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addSysUser was 系统用户数据
+2019-03-11 22:55:37.910  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addSysUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.911  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was 系统用户数据
+2019-03-11 22:55:37.911  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.911  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method freezeUser was 系统用户数据
+2019-03-11 22:55:37.912  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: freezeUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.912  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method selectUserList was 系统用户数据
+2019-03-11 22:55:37.914  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: selectUserList belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.915  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 系统用户数据
+2019-03-11 22:55:37.915  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: login belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.917  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method unfreezeUser was 系统用户数据
+2019-03-11 22:55:37.917  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: unfreezeUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.918  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataUser was 系统用户数据
+2019-03-11 22:55:37.918  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updataUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.919  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataPassword was 系统用户数据
+2019-03-11 22:55:37.919  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updataPassword belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:55:37.930  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/系统用户数据 Description: 系统用户数据 Position: 0
+2019-03-11 22:55:37.936  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/角色数据 Description: 角色数据 Position: 0
+2019-03-11 22:55:37.937  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/部门数据 Description: 部门数据 Position: 0
+2019-03-11 22:55:37.938  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/系统菜单数据 Description: 系统菜单数据 Position: 0
+2019-03-11 22:55:37.939  INFO 8152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/权限分配 Description: 权限分配 Position: 0
+2019-03-11 22:55:38.093  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.094  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.106  INFO 8152 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.107  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.309  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.309  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.325  INFO 8152 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.325  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.330  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /relation/update.com.wj.manager.controller.SysRelationController.updataRelations.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.331  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /relation/update.com.wj.manager.controller.SysRelationController.updataRelations.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.450  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataRelations was 权限分配
+2019-03-11 22:55:38.473  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataRelations was 权限分配
+2019-03-11 22:55:38.510  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.510  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.511  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.511  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.511  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/add.com.wj.manager.controller.SysUserController.addSysUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.511  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/add.com.wj.manager.controller.SysUserController.addSysUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.534  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addSysUser was 系统用户数据
+2019-03-11 22:55:38.538  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addSysUser was 系统用户数据
+2019-03-11 22:55:38.542  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.542  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.547  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.549  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.549  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/delete.com.wj.manager.controller.SysUserController.deleteUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.549  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/delete.com.wj.manager.controller.SysUserController.deleteUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.589  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was 系统用户数据
+2019-03-11 22:55:38.592  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was 系统用户数据
+2019-03-11 22:55:38.603  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.604  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.604  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.605  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.605  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/freeze.com.wj.manager.controller.SysUserController.freezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.607  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/freeze.com.wj.manager.controller.SysUserController.freezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.611  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method freezeUser was 系统用户数据
+2019-03-11 22:55:38.615  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method freezeUser was 系统用户数据
+2019-03-11 22:55:38.622  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.623  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.624  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.626  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.626  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/login.com.wj.manager.controller.SysUserController.login.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.626  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/login.com.wj.manager.controller.SysUserController.login.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.629  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 系统用户数据
+2019-03-11 22:55:38.636  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 系统用户数据
+2019-03-11 22:55:38.639  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.639  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.640  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.641  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.641  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/list.com.wj.manager.controller.SysUserController.selectUserList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.641  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/list.com.wj.manager.controller.SysUserController.selectUserList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.644  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method selectUserList was 系统用户数据
+2019-03-11 22:55:38.646  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method selectUserList was 系统用户数据
+2019-03-11 22:55:38.651  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.652  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.652  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.652  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.652  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/unfreeze.com.wj.manager.controller.SysUserController.unfreezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.652  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/unfreeze.com.wj.manager.controller.SysUserController.unfreezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.656  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method unfreezeUser was 系统用户数据
+2019-03-11 22:55:38.658  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method unfreezeUser was 系统用户数据
+2019-03-11 22:55:38.661  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.661  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.665  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.665  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.668  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/updatapsw.com.wj.manager.controller.SysUserController.updataPassword.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.668  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/updatapsw.com.wj.manager.controller.SysUserController.updataPassword.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.672  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataPassword was 系统用户数据
+2019-03-11 22:55:38.674  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataPassword was 系统用户数据
+2019-03-11 22:55:38.677  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.677  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.677  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.677  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.677  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/updata.com.wj.manager.controller.SysUserController.updataUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.678  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/updata.com.wj.manager.controller.SysUserController.updataUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.681  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataUser was 系统用户数据
+2019-03-11 22:55:38.693  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataUser was 系统用户数据
+2019-03-11 22:55:38.698  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.698  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.704  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.704  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.705  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/addPic.com.wj.manager.controller.SysUserController.uploadAvatar.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.705  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/addPic.com.wj.manager.controller.SysUserController.uploadAvatar.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.708  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method uploadAvatar was 系统用户数据
+2019-03-11 22:55:38.709  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method uploadAvatar was 系统用户数据
+2019-03-11 22:55:38.711  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.712  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.712  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.712  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.712  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /menu/list.com.wj.manager.controller.SysMenuController.getMenuList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.712  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /menu/list.com.wj.manager.controller.SysMenuController.getMenuList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.713  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMenuList was 系统菜单数据
+2019-03-11 22:55:38.715  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMenuList was 系统菜单数据
+2019-03-11 22:55:38.717  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.717  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.718  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.718  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.718  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /menu/treelist.com.wj.manager.controller.SysMenuController.getTreeData.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.718  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /menu/treelist.com.wj.manager.controller.SysMenuController.getTreeData.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.719  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTreeData was 系统菜单数据
+2019-03-11 22:55:38.720  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTreeData was 系统菜单数据
+2019-03-11 22:55:38.723  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.723  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.723  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.723  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.723  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/add.com.wj.manager.controller.SysRoleController.addRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.723  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/add.com.wj.manager.controller.SysRoleController.addRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.731  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addRole was 角色数据
+2019-03-11 22:55:38.736  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addRole was 角色数据
+2019-03-11 22:55:38.738  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.738  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.738  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.738  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.752  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/delete.com.wj.manager.controller.SysRoleController.deleteRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.753  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/delete.com.wj.manager.controller.SysRoleController.deleteRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.758  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteRole was 角色数据
+2019-03-11 22:55:38.768  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteRole was 角色数据
+2019-03-11 22:55:38.770  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.771  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.773  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.773  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.773  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/edit.com.wj.manager.controller.SysRoleController.editRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.773  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/edit.com.wj.manager.controller.SysRoleController.editRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.775  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method editRole was 角色数据
+2019-03-11 22:55:38.777  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method editRole was 角色数据
+2019-03-11 22:55:38.784  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.786  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.786  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.786  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.786  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/treelist.com.wj.manager.controller.SysRoleController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.787  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/treelist.com.wj.manager.controller.SysRoleController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.787  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 角色数据
+2019-03-11 22:55:38.788  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 角色数据
+2019-03-11 22:55:38.790  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.790  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.790  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.790  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.790  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/list.com.wj.manager.controller.SysRoleController.getRoleList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.791  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/list.com.wj.manager.controller.SysRoleController.getRoleList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.795  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getRoleList was 角色数据
+2019-03-11 22:55:38.804  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getRoleList was 角色数据
+2019-03-11 22:55:38.806  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.806  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.807  INFO 8152 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.807  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:55:38.808  INFO 8152 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /dept/list.com.wj.manager.controller.SysDeptController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.808  INFO 8152 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /dept/list.com.wj.manager.controller.SysDeptController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:55:38.812  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 部门数据
+2019-03-11 22:55:38.813  INFO 8152 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 部门数据
+2019-03-11 22:55:38.814  INFO 8152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListTreeUsingGET_1
+2019-03-11 22:55:39.241  INFO 8152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/manager-boot'
+2019-03-11 22:55:39.247  INFO 8152 --- [main] com.wj.manager.ManagerBootApplication    : Started ManagerBootApplication in 31.046 seconds (JVM running for 42.633)
+2019-03-11 22:57:23.241  INFO 8152 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/manager-boot]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-11 22:57:23.241  INFO 8152 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-11 22:57:23.302  INFO 8152 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 61 ms
+2019-03-11 22:59:22.722  INFO 7140 --- [main] com.wj.manager.ManagerBootApplication    : Starting ManagerBootApplication on DESKTOP-G1UFLM8 with PID 7140 (E:\MyDownloads\manager-boot\target\classes started by admin in E:\MyDownloads\manager-boot)
+2019-03-11 22:59:22.753  INFO 7140 --- [main] com.wj.manager.ManagerBootApplication    : No active profile set, falling back to default profiles: default
+2019-03-11 22:59:27.588  INFO 7140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.wj.manager.config.ShiroConfig$$EnhancerBySpringCGLIB$$fcae1843] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:59:28.311  INFO 7140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroUserRealm' of type [com.wj.manager.common.shiro.ShiroUserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:59:29.384  INFO 7140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:59:29.432  INFO 7140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:59:29.528  INFO 7140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b842c28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:59:29.892  INFO 7140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$b04795a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-11 22:59:31.380  INFO 7140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-11 22:59:31.432  INFO 7140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-11 22:59:31.432  INFO 7140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-11 22:59:31.468  INFO 7140 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-03-11 22:59:31.469  INFO 7140 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2019-03-11 22:59:31.469  INFO 7140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-11 22:59:31.469  INFO 7140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-11 22:59:32.646  INFO 7140 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2019-03-11 22:59:33.583  INFO 7140 --- [main] o.a.c.c.C.[.[localhost].[/manager-boot]  : Initializing Spring embedded WebApplicationContext
+2019-03-11 22:59:33.585  INFO 7140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10688 ms
+2019-03-11 22:59:37.545  INFO 7140 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-11 22:59:45.294  INFO 7140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-11 22:59:45.850  INFO 7140 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-03-11 22:59:46.624  INFO 7140 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-11 22:59:46.712  INFO 7140 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-03-11 22:59:46.760  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-11 22:59:46.810  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 部门数据
+2019-03-11 22:59:46.819  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getListTree belongs to groups: [[ResourceGroup{groupName='部门数据', position=0, controller=com.wj.manager.controller.SysDeptController}]] 
+2019-03-11 22:59:46.824  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMenuList was 系统菜单数据
+2019-03-11 22:59:46.825  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getMenuList belongs to groups: [[ResourceGroup{groupName='系统菜单数据', position=0, controller=com.wj.manager.controller.SysMenuController}]] 
+2019-03-11 22:59:46.826  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTreeData was 系统菜单数据
+2019-03-11 22:59:46.827  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getTreeData belongs to groups: [[ResourceGroup{groupName='系统菜单数据', position=0, controller=com.wj.manager.controller.SysMenuController}]] 
+2019-03-11 22:59:46.828  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataRelations was 权限分配
+2019-03-11 22:59:46.829  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updataRelations belongs to groups: [[ResourceGroup{groupName='权限分配', position=0, controller=com.wj.manager.controller.SysRelationController}]] 
+2019-03-11 22:59:46.831  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addRole was 角色数据
+2019-03-11 22:59:46.831  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addRole belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:59:46.832  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteRole was 角色数据
+2019-03-11 22:59:46.833  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteRole belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:59:46.835  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method editRole was 角色数据
+2019-03-11 22:59:46.836  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: editRole belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:59:46.838  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getRoleList was 角色数据
+2019-03-11 22:59:46.838  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getRoleList belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:59:46.840  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 角色数据
+2019-03-11 22:59:46.841  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getListTree belongs to groups: [[ResourceGroup{groupName='角色数据', position=0, controller=com.wj.manager.controller.SysRoleController}]] 
+2019-03-11 22:59:46.843  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method uploadAvatar was 系统用户数据
+2019-03-11 22:59:46.843  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: uploadAvatar belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.845  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addSysUser was 系统用户数据
+2019-03-11 22:59:46.845  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: addSysUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.847  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was 系统用户数据
+2019-03-11 22:59:46.847  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.849  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method freezeUser was 系统用户数据
+2019-03-11 22:59:46.849  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: freezeUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.850  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method selectUserList was 系统用户数据
+2019-03-11 22:59:46.851  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: selectUserList belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.852  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 系统用户数据
+2019-03-11 22:59:46.852  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: login belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.854  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method unfreezeUser was 系统用户数据
+2019-03-11 22:59:46.854  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: unfreezeUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.855  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataUser was 系统用户数据
+2019-03-11 22:59:46.856  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updataUser belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.856  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataPassword was 系统用户数据
+2019-03-11 22:59:46.856  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updataPassword belongs to groups: [[ResourceGroup{groupName='系统用户数据', position=0, controller=com.wj.manager.controller.SysUserController}]] 
+2019-03-11 22:59:46.867  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/权限分配 Description: 权限分配 Position: 0
+2019-03-11 22:59:46.870  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/系统用户数据 Description: 系统用户数据 Position: 0
+2019-03-11 22:59:46.871  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/部门数据 Description: 部门数据 Position: 0
+2019-03-11 22:59:46.871  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/系统菜单数据 Description: 系统菜单数据 Position: 0
+2019-03-11 22:59:46.872  INFO 7140 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/角色数据 Description: 角色数据 Position: 0
+2019-03-11 22:59:46.960  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:46.961  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:46.972  INFO 7140 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:46.972  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.098  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.099  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.106  INFO 7140 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.107  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.115  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /relation/update.com.wj.manager.controller.SysRelationController.updataRelations.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.116  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /relation/update.com.wj.manager.controller.SysRelationController.updataRelations.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.177  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataRelations was 权限分配
+2019-03-11 22:59:47.233  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataRelations was 权限分配
+2019-03-11 22:59:47.256  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.257  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.257  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.257  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.257  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/add.com.wj.manager.controller.SysUserController.addSysUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.257  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/add.com.wj.manager.controller.SysUserController.addSysUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.265  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addSysUser was 系统用户数据
+2019-03-11 22:59:47.267  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addSysUser was 系统用户数据
+2019-03-11 22:59:47.269  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.269  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.270  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.270  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.270  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/delete.com.wj.manager.controller.SysUserController.deleteUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.271  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/delete.com.wj.manager.controller.SysUserController.deleteUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.280  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was 系统用户数据
+2019-03-11 22:59:47.281  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was 系统用户数据
+2019-03-11 22:59:47.285  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.285  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.285  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.286  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.286  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/freeze.com.wj.manager.controller.SysUserController.freezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.286  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/freeze.com.wj.manager.controller.SysUserController.freezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.289  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method freezeUser was 系统用户数据
+2019-03-11 22:59:47.291  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method freezeUser was 系统用户数据
+2019-03-11 22:59:47.294  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.294  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.294  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.294  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.295  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/login.com.wj.manager.controller.SysUserController.login.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.295  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/login.com.wj.manager.controller.SysUserController.login.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.299  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 系统用户数据
+2019-03-11 22:59:47.300  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method login was 系统用户数据
+2019-03-11 22:59:47.303  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.303  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.303  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.304  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.304  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/list.com.wj.manager.controller.SysUserController.selectUserList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.304  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/list.com.wj.manager.controller.SysUserController.selectUserList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.318  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method selectUserList was 系统用户数据
+2019-03-11 22:59:47.324  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method selectUserList was 系统用户数据
+2019-03-11 22:59:47.327  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.327  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.327  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.328  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.328  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/unfreeze.com.wj.manager.controller.SysUserController.unfreezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.328  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/unfreeze.com.wj.manager.controller.SysUserController.unfreezeUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.332  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method unfreezeUser was 系统用户数据
+2019-03-11 22:59:47.334  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method unfreezeUser was 系统用户数据
+2019-03-11 22:59:47.338  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.338  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.339  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.340  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.340  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/updatapsw.com.wj.manager.controller.SysUserController.updataPassword.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.340  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/updatapsw.com.wj.manager.controller.SysUserController.updataPassword.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.344  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataPassword was 系统用户数据
+2019-03-11 22:59:47.345  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataPassword was 系统用户数据
+2019-03-11 22:59:47.349  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.349  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.349  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.349  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.349  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/updata.com.wj.manager.controller.SysUserController.updataUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.349  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/updata.com.wj.manager.controller.SysUserController.updataUser.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.352  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataUser was 系统用户数据
+2019-03-11 22:59:47.354  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updataUser was 系统用户数据
+2019-03-11 22:59:47.358  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.358  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.358  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.358  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.359  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /sysUser/addPic.com.wj.manager.controller.SysUserController.uploadAvatar.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.359  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /sysUser/addPic.com.wj.manager.controller.SysUserController.uploadAvatar.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.364  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method uploadAvatar was 系统用户数据
+2019-03-11 22:59:47.365  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method uploadAvatar was 系统用户数据
+2019-03-11 22:59:47.367  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.367  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.368  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.368  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.368  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /menu/list.com.wj.manager.controller.SysMenuController.getMenuList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.368  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /menu/list.com.wj.manager.controller.SysMenuController.getMenuList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.369  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMenuList was 系统菜单数据
+2019-03-11 22:59:47.371  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMenuList was 系统菜单数据
+2019-03-11 22:59:47.374  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.374  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.374  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.374  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.374  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /menu/treelist.com.wj.manager.controller.SysMenuController.getTreeData.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.375  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /menu/treelist.com.wj.manager.controller.SysMenuController.getTreeData.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.378  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTreeData was 系统菜单数据
+2019-03-11 22:59:47.381  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTreeData was 系统菜单数据
+2019-03-11 22:59:47.386  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.386  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.387  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.388  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.389  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/add.com.wj.manager.controller.SysRoleController.addRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.390  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/add.com.wj.manager.controller.SysRoleController.addRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.396  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addRole was 角色数据
+2019-03-11 22:59:47.397  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method addRole was 角色数据
+2019-03-11 22:59:47.398  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.398  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.399  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.399  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.400  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/delete.com.wj.manager.controller.SysRoleController.deleteRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.401  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/delete.com.wj.manager.controller.SysRoleController.deleteRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.408  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteRole was 角色数据
+2019-03-11 22:59:47.409  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteRole was 角色数据
+2019-03-11 22:59:47.416  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.416  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.416  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.416  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.416  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/edit.com.wj.manager.controller.SysRoleController.editRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.416  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/edit.com.wj.manager.controller.SysRoleController.editRole.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.419  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method editRole was 角色数据
+2019-03-11 22:59:47.421  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method editRole was 角色数据
+2019-03-11 22:59:47.428  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.428  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.429  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.429  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.430  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/treelist.com.wj.manager.controller.SysRoleController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.431  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/treelist.com.wj.manager.controller.SysRoleController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.432  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 角色数据
+2019-03-11 22:59:47.432  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 角色数据
+2019-03-11 22:59:47.433  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.433  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.433  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.433  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.434  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /role/list.com.wj.manager.controller.SysRoleController.getRoleList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.434  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /role/list.com.wj.manager.controller.SysRoleController.getRoleList.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.435  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getRoleList was 角色数据
+2019-03-11 22:59:47.436  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getRoleList was 角色数据
+2019-03-11 22:59:47.437  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.438  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.438  INFO 7140 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.438  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.wj.manager.common.dto.ResponseResult(true)
+2019-03-11 22:59:47.438  INFO 7140 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /dept/list.com.wj.manager.controller.SysDeptController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.439  INFO 7140 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /dept/list.com.wj.manager.controller.SysDeptController.getListTree.DefaultGenericTypeNamingStrategy
+2019-03-11 22:59:47.440  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 部门数据
+2019-03-11 22:59:47.440  INFO 7140 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getListTree was 部门数据
+2019-03-11 22:59:47.441  INFO 7140 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListTreeUsingGET_1
+2019-03-11 22:59:47.625  INFO 7140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/manager-boot'
+2019-03-11 22:59:47.634  INFO 7140 --- [main] com.wj.manager.ManagerBootApplication    : Started ManagerBootApplication in 27.522 seconds (JVM running for 33.364)
+2019-03-11 23:00:44.642  INFO 7140 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/manager-boot]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-11 23:00:44.644  INFO 7140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-11 23:00:44.710  INFO 7140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 66 ms
+2019-03-11 23:02:08.287 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.m.S.getResUrlsByRoleId             : ==>  Preparing: SELECT a.url from sys_menu a join sys_relation b on a.id = b.menuid where b.roleid =? 
+2019-03-11 23:02:08.350 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.m.S.getResUrlsByRoleId             : ==> Parameters: 1(Integer)
+2019-03-11 23:02:08.872 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.m.S.getResUrlsByRoleId             : <==      Total: 55
+2019-03-11 23:02:09.163 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.165 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: 0(String)
+2019-03-11 23:02:09.232 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 4
+2019-03-11 23:02:09.258 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.259 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: system(String)
+2019-03-11 23:02:09.264 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 9
+2019-03-11 23:02:09.268 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.269 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr(String)
+2019-03-11 23:02:09.276 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 10
+2019-03-11 23:02:09.279 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.280 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_add(String)
+2019-03-11 23:02:09.282 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.285 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.285 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_edit(String)
+2019-03-11 23:02:09.287 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.289 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.290 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_delete(String)
+2019-03-11 23:02:09.292 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.295 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.296 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_reset(String)
+2019-03-11 23:02:09.297 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.301 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.303 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_freeze(String)
+2019-03-11 23:02:09.306 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.309 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.310 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_unfreeze(String)
+2019-03-11 23:02:09.312 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.315 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.316 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_setRole(String)
+2019-03-11 23:02:09.319 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.321 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.321 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_assign_role(String)
+2019-03-11 23:02:09.324 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.326 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.326 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_user_edit(String)
+2019-03-11 23:02:09.329 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.334 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.335 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: mgr_list(String)
+2019-03-11 23:02:09.339 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.344 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.345 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: role(String)
+2019-03-11 23:02:09.352 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 7
+2019-03-11 23:02:09.358 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.360 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: role_add(String)
+2019-03-11 23:02:09.362 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.368 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.369 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: role_edit(String)
+2019-03-11 23:02:09.371 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.374 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.374 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: role_remove(String)
+2019-03-11 23:02:09.376 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.378 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.380 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: role_setAuthority(String)
+2019-03-11 23:02:09.382 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.386 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.386 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_role_edit(String)
+2019-03-11 23:02:09.388 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.392 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.392 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_role_assign(String)
+2019-03-11 23:02:09.393 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.395 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.396 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: role_list(String)
+2019-03-11 23:02:09.397 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.400 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.400 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: menu(String)
+2019-03-11 23:02:09.404 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 5
+2019-03-11 23:02:09.405 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.406 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: menu_add(String)
+2019-03-11 23:02:09.408 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.410 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.411 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: menu_edit(String)
+2019-03-11 23:02:09.413 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.415 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.416 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: menu_remove(String)
+2019-03-11 23:02:09.418 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.420 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.421 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_menu_edit(String)
+2019-03-11 23:02:09.423 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.428 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.428 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: menu_list(String)
+2019-03-11 23:02:09.430 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.432 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.432 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: log(String)
+2019-03-11 23:02:09.436 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 3
+2019-03-11 23:02:09.438 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.438 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: log_clean(String)
+2019-03-11 23:02:09.440 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.442 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.443 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: log_list(String)
+2019-03-11 23:02:09.445 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.446 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.447 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: log_detail(String)
+2019-03-11 23:02:09.451 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.453 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.454 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: druid(String)
+2019-03-11 23:02:09.456 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.458 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.458 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dept(String)
+2019-03-11 23:02:09.462 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 6
+2019-03-11 23:02:09.465 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.465 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dept_add(String)
+2019-03-11 23:02:09.470 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.472 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.474 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dept_update(String)
+2019-03-11 23:02:09.475 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.477 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.478 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dept_delete(String)
+2019-03-11 23:02:09.480 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.483 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.484 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_dept_update(String)
+2019-03-11 23:02:09.487 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.489 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.490 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dept_list(String)
+2019-03-11 23:02:09.492 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.494 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.495 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dept_detail(String)
+2019-03-11 23:02:09.496 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.499 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.508 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dict(String)
+2019-03-11 23:02:09.513 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 6
+2019-03-11 23:02:09.516 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.517 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dict_add(String)
+2019-03-11 23:02:09.519 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.521 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.521 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dict_update(String)
+2019-03-11 23:02:09.523 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.525 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.526 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dict_delete(String)
+2019-03-11 23:02:09.528 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.530 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.531 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: to_dict_edit(String)
+2019-03-11 23:02:09.533 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.535 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.535 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dict_list(String)
+2019-03-11 23:02:09.537 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.539 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.541 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: dict_detail(String)
+2019-03-11 23:02:09.542 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.544 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.544 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: loginLog(String)
+2019-03-11 23:02:09.546 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 2
+2019-03-11 23:02:09.547 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.548 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: del_login_log(String)
+2019-03-11 23:02:09.550 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.553 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.553 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: login_log_list(String)
+2019-03-11 23:02:09.555 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.557 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.558 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice(String)
+2019-03-11 23:02:09.563 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 4
+2019-03-11 23:02:09.564 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.565 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_add(String)
+2019-03-11 23:02:09.566 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.568 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.569 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_update(String)
+2019-03-11 23:02:09.571 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.573 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.573 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_delete(String)
+2019-03-11 23:02:09.575 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.577 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.577 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_list(String)
+2019-03-11 23:02:09.581 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.586 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.587 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice(String)
+2019-03-11 23:02:09.590 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 4
+2019-03-11 23:02:09.591 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.591 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_add(String)
+2019-03-11 23:02:09.593 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.596 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.596 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_update(String)
+2019-03-11 23:02:09.597 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.599 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.599 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_delete(String)
+2019-03-11 23:02:09.600 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.602 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.603 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: notice_list(String)
+2019-03-11 23:02:09.604 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.605 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.606 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: code(String)
+2019-03-11 23:02:09.607 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0
+2019-03-11 23:02:09.608 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.609 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: api_mgr(String)
+2019-03-11 23:02:09.611 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 1
+2019-03-11 23:02:09.612 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==>  Preparing: SELECT id,code,pcode,pcodes,name,icon,url,num,levels,ismenu,tips,status,isopen FROM sys_menu WHERE status=1 AND pcode = ? 
+2019-03-11 23:02:09.613 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : ==> Parameters: api_mgr_show(String)
+2019-03-11 23:02:09.614 DEBUG 7140 --- [http-nio-8080-exec-3] c.w.m.mapper.SysMenuMapper.selectMaps    : <==      Total: 0

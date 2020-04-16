@@ -1,0 +1,91 @@
+#debug=true 就能知道用了那些自动配置，或者自己取jar包找springboot的autoConfiguration的properties文件找conditionOnClass
+
+server:
+  port: 8080
+  servlet:
+      context-path: /manager-boot
+
+#控制台打印sql语句
+logging:
+  level:
+      com.wj.manager.mapper: debug
+
+#security.oauth2.client.client-id: test
+#security.oauth2.client.client-secret: test
+
+spring:
+    servlet:
+        multipart:
+            enabled: true
+            location: classpath:/static/
+            max-file-size: 10MB
+            max-request-size: 100MB
+            resolve-lazily: false
+            file-size-threshold: 0
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/guns?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+        username: root
+        password: root
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+    cache:
+      ehcache:
+        config: classpath:ehcache.xml
+    resources:
+        static-locations: classpath:/static/
+
+
+#配置shiro不拦截的路径
+#crm:
+#  name: fsdaf
+#  anon-uri:
+#    - /sysUser/login
+#    - /logout
+#    - /img/**
+#    - /js/**
+#    - /css/**
+
+mb:
+  security:
+    clientId: test
+    clientSecret: test
+    expire: 14400
+    refreshExpire: 1800
+    signingKey: ASDFASFsdfsdfsdfsfadsf234asdfasfdas
+    refreshTokenKey: refresh_jwt
+    getTokenUrl: http://localhost:8080/manager-boot/oauth/token
+    redirectUris:
+      - http://localhost:8080/manager-boot/swagger-ui.html
+      - http://www.baidu.com
+    grantTypes:
+      - password
+      - authorization_code
+      - refresh_token
+    scopes:
+      - all
+      - write
+      - read
+    anonUri:
+      - /auth/login
+      - /img/**
+      - /js/**
+      - /css/**
+    keyStorePath: mb.keystore
+    keyStorePass: mbstorepass
+    keyPairAlias: mbkey
+    keyPairPass: mbpass
+
+
+# Mybatis配置
+mybatis:
+    mapperLocations: classpath:com/wj/manager/mapper/*.xml
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 2
+      logic-not-delete-value: 1
+
+
