@@ -15,7 +15,6 @@ import java.util.Date;
  * </p>
  *
  * @author Wj
- * @since 2019-02-18
  */
 public class SysExpense implements Serializable {
 

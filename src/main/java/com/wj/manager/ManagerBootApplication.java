@@ -10,6 +10,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @EnableAsync 开启异步功能，在需要异步的方法上@Async
@@ -20,6 +21,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @MapperScan("com.wj.manager.mapper")
 @ComponentScan("com.wj.manager")
 @EnableCaching
+@EnableSwagger2
 public class ManagerBootApplication {
 
 	public static void main(String[] args) {

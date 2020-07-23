@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysDictServiceImpl extends ServiceImpl<SysDictMapper, SysDict> implements SysDictService {

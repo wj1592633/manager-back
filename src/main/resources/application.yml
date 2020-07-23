@@ -8,7 +8,7 @@ server:
 #控制台打印sql语句
 logging:
   level:
-      com.wj.manager.mapper: debug
+    com.wj.manager.mapper: debug
 
 #security.oauth2.client.client-id: test
 #security.oauth2.client.client-secret: test
@@ -87,5 +87,3 @@ mybatis-plus:
     db-config:
       logic-delete-value: 2
       logic-not-delete-value: 1
-
-

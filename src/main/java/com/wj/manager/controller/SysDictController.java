@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @RestController
 @RequestMapping("/dict")

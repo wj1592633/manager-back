@@ -16,7 +16,6 @@ import java.io.Serializable;
  * </p>
  *
  * @author Wj
- * @since 2019-02-18
  */
 @ApiModel("部门模型")
 public class SysDept implements Serializable {

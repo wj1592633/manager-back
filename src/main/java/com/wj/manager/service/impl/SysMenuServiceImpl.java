@@ -16,6 +16,7 @@ import com.wj.manager.pojo.SysRole;
 import com.wj.manager.service.SysMenuService;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -33,7 +34,6 @@ import java.util.*;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> implements SysMenuService {
@@ -152,6 +152,7 @@ public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> impl
 
     @Transactional(isolation = Isolation.DEFAULT,propagation = Propagation.REQUIRED,readOnly = false,rollbackFor = Exception.class)
     @Override
+    @CacheEvict(value = EhCacheConst.CACHE_CONSTANT,key = "'getAllMenuList'")
     public int changeStatusById(Integer id, Integer status) {
         if(null == id || null == status ){
             throw new CustomException(ExceptionEnum.NO_WORK);

@@ -9,7 +9,6 @@ import com.wj.manager.pojo.SysNotice;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 public interface SysNoticeMapper extends BaseMapper<SysNotice> {
 

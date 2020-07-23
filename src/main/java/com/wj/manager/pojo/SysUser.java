@@ -19,7 +19,6 @@ import java.util.Date;
  * </p>
  *
  * @author Wj
- * @since 2019-02-18
  */
 @ApiModel( description = "系统用户对象")
 public class SysUser implements Serializable {

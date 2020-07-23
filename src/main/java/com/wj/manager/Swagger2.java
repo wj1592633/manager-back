@@ -20,7 +20,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * 再通过@EnableSwagger2注解来启用Swagger2。
  */
 @Configuration
-@EnableSwagger2
 public class Swagger2 {
 
     /**

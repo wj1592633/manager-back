@@ -14,7 +14,6 @@ import java.util.Map;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 public interface SysLoginLogService extends IService<SysLoginLog> {
 

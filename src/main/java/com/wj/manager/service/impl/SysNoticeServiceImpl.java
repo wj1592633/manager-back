@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysNoticeServiceImpl extends ServiceImpl<SysNoticeMapper, SysNotice> implements SysNoticeService {

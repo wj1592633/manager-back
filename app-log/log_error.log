@@ -1,4 +1,23 @@
-2019-03-31 11:21:54.993 ERROR 6080 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 13:34:53.529 ERROR 11324 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-07-23 14:35:05.630 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -8,7 +27,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -26,9 +45,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 14:14:52.734 ERROR 10956 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 14:36:56.895 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -38,7 +57,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -56,9 +75,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 14:42:52.367 ERROR 12588 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getTreeData() failed: 
+2020-07-23 15:11:00.078 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -68,7 +87,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -86,9 +105,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 15:36:34.457 ERROR 13468 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:11:19.022 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -98,7 +117,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -116,15 +135,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 15:37:02.421 ERROR 13468 --- [http-nio-8080-exec-6] com.wj.manager.common.aop.LogAop         : 记录日志异常:Cannot convert access token to JSON
-2019-03-31 15:37:04.278 ERROR 13468 --- [http-nio-8080-exec-5] com.wj.manager.common.aop.LogAop         : 记录日志异常:Cannot convert access token to JSON
-2019-03-31 15:37:25.363 ERROR 13468 --- [http-nio-8080-exec-7] com.wj.manager.common.aop.LogAop         : 记录日志异常:Cannot convert access token to JSON
-2019-03-31 15:38:40.493 ERROR 13468 --- [http-nio-8080-exec-10] com.wj.manager.common.aop.LogAop         : 记录日志异常:Cannot convert access token to JSON
-2019-03-31 15:38:42.990 ERROR 13468 --- [http-nio-8080-exec-5] com.wj.manager.common.aop.LogAop         : 记录日志异常:Cannot convert access token to JSON
-2019-03-31 15:40:09.614 ERROR 13468 --- [http-nio-8080-exec-1] com.wj.manager.common.aop.LogAop         : 记录日志异常:Cannot convert access token to JSON
-2019-03-31 16:00:00.126 ERROR 11016 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:12:37.104 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -134,7 +147,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -152,9 +165,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 16:15:59.774 ERROR 2240 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:12:54.587 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -164,7 +177,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -182,9 +195,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 16:28:37.942 ERROR 11104 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:13:29.073 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -194,7 +207,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -212,9 +225,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 16:38:08.340 ERROR 11944 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:13:57.026 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -224,7 +237,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -242,9 +255,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 16:39:52.315 ERROR 11464 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:15:08.723 ERROR 10200 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -254,7 +267,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -272,9 +285,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 16:44:47.267 ERROR 13240 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:39:26.414 ERROR 12488 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -284,7 +297,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -302,9 +315,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 16:47:16.848 ERROR 13860 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:39:26.644 ERROR 12488 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -314,7 +327,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -332,9 +345,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 17:12:34.076 ERROR 11984 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:41:40.617 ERROR 9304 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -344,7 +357,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -362,9 +375,9 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-03-31 17:22:00.693 ERROR 532 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+2020-07-23 15:42:49.793 ERROR 9304 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
 
 java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -374,7 +387,7 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
 	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
 	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
@@ -392,5 +405,155 @@ java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-23 15:52:37.846 ERROR 12216 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+
+java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at net.sf.ehcache.Element.writeObject(Element.java:875)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-23 16:06:11.895 ERROR 12216 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+
+java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at net.sf.ehcache.Element.writeObject(Element.java:875)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-23 16:08:26.182 ERROR 12216 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+
+java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at net.sf.ehcache.Element.writeObject(Element.java:875)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-23 16:17:53.341 ERROR 12216 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+
+java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at net.sf.ehcache.Element.writeObject(Element.java:875)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-23 16:21:58.633 ERROR 12216 --- [%0043%004f%004e%0053%0054%0041%004e%0054.data] n.s.e.store.disk.DiskStorageFactory      : Disk Write of getMenuList() failed: 
+
+java.io.NotSerializableException: com.wj.manager.common.dto.ResponseResult
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at net.sf.ehcache.Element.writeObject(Element.java:875)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
 

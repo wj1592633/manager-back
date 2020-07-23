@@ -22,7 +22,6 @@ import org.springframework.transaction.annotation.Transactional;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysRelationServiceImpl extends ServiceImpl<SysRelationMapper, SysRelation> implements SysRelationService {

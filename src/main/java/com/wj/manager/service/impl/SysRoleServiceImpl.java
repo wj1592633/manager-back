@@ -27,7 +27,6 @@ import java.util.*;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> implements SysRoleService {

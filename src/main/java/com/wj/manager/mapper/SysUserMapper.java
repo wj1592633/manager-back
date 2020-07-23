@@ -13,7 +13,6 @@ import org.apache.ibatis.annotations.Select;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Mapper
 public interface SysUserMapper extends BaseMapper<SysUser> {

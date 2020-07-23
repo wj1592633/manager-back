@@ -10,7 +10,6 @@ import com.wj.manager.pojo.SysDict;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 public interface SysDictService extends IService<SysDict> {
 

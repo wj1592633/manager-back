@@ -11,7 +11,6 @@ import org.springframework.stereotype.Controller;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Controller
 @RequestMapping("/sysNotice")

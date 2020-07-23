@@ -31,7 +31,6 @@ import java.util.Map;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysDeptServiceImpl extends ServiceImpl<SysDeptMapper, SysDept> implements SysDeptService {

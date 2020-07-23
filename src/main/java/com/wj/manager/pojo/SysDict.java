@@ -12,7 +12,6 @@ import java.io.Serializable;
  * </p>
  *
  * @author Wj
- * @since 2019-02-18
  */
 public class SysDict implements Serializable {
 

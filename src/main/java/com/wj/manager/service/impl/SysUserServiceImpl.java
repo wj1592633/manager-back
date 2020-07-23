@@ -42,7 +42,6 @@ import java.util.UUID;
  * </p>
  *
  * @author Wj
- * @since 2019-02-13
  */
 @Service
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements SysUserService {
