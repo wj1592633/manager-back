@@ -34,7 +34,7 @@
 			<jackson.version>2.9.8</jackson.version>
 			<log4j.version>2.10.0</log4j.version>
 			<spring-security-oauth2.version>2.1.2.RELEASE</spring-security-oauth2.version>
-			<fastjson.version>1.2.47</fastjson.version>
+			<fastjson.version>1.2.83</fastjson.version>
 			<commons-io.version>1.3.2</commons-io.version>
 			<org.ehcache.version>3.5.2</org.ehcache.version>
 		</properties>
